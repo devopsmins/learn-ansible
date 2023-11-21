@@ -1,7 +1,7 @@
 - name: Demo on variables
   hosts: localhost
   vars:
-   URL:sample.com
+    URL:sample.com
   tasks:
   - name: print URL1 variable
     ansible.builtin.debug:
